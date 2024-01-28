@@ -15,7 +15,7 @@ npm i
 
 1. Obtain a Google Maps API key [here](https://developers.google.com/maps/documentation/javascript/get-api-key) and paste it in `index.html` script tag:
 
-```
+```html
 <script
   src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initialize&v=weekly"
   defer
