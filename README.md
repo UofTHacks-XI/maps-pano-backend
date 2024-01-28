@@ -7,13 +7,22 @@
 
 ## How to Start this Project (Start this before Nos Album)
 
-1. Install node modules
+0. Install node modules
 
 ```
 npm i
 ```
 
-2. Start the server at port XXXX, hosting the server to the network
+1. Obtain a Google Maps API key [here](https://developers.google.com/maps/documentation/javascript/get-api-key) and paste it in `index.html` script tag:
+
+```
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initialize&v=weekly"
+  defer
+></script>
+```
+
+3. Start the server at port XXXX, hosting the server to the network
 
 ```
 npm start -- --port=XXXX --host
