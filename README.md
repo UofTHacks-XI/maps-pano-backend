@@ -29,5 +29,6 @@ VITE v5.0.12  ready in 1134 ms
 ```
 
 ## Project Roadmap
-- [] Encapsulate API key for project security
-- [] Optimize vertical mobile view in street view - [] Investigate auto-enable motion tracking on mobile devices without having a user to manually enable it
+- [ ] Encapsulate API key for project security
+- [ ] Optimize vertical mobile view in street view
+- [ ] Investigate auto-enable motion tracking on mobile devices without having a user to manually enable it
